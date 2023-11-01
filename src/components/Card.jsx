@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-import databaseService from "../../appwrite/database";
+import databaseService from "../appwrite/database";
 import {Link} from 'react-router-dom'
 
 export default function Card({$id,title,featuredImage}){

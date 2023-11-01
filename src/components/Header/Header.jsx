@@ -40,7 +40,7 @@ export default function Header(){
                             item.active ? (
                                 <li key={item.name}>
                                     <button 
-                                        
+                                       // use navigate to slug 
                                     className="transition-all py-1 z-10 px-4 border-2 rounded-md border-lightP hover:shadow-violet btn" >
                                     
                                         {item.name}
