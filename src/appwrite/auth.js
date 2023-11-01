@@ -58,6 +58,6 @@ class AuthS {
 }
 
 
-const authService = new AuthS
+const authService = new AuthS()
 
 export default authService

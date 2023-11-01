@@ -137,3 +137,8 @@ class Data{
         }
     }
 }
+
+
+const databaseService = new Data()
+
+export default databaseService 

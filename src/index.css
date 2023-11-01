@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn:hover{
+    transform:translateX(-3px) translateY(-3px)
+}
+.card:hover{
+    box-shadow: 7px 7px 0 0 rgba(180, 3, 5, 0.8);
+    transform: translateX(-5px) translateY(-5px);
+}
